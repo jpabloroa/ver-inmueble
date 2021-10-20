@@ -1,0 +1,58 @@
+{
+    "favicon": "",
+    "title": "Recorrido Virtual",
+    "instances": [
+        {
+            "type": "-",
+            "linkId":"",
+            "title": "Habitaci&oacute;n 1",
+            "image": "https://drive.google.com/uc?export=view&id=1oN3vw_uxTRBGOIWMHuMtvK9Y1kVLIlAK",
+            "properties": [
+                {
+                    "id": "tour-button_view_izq",
+                    "visibility": "visible",
+                    "top": "40%",
+                    "left": "5%"
+                },
+                {
+                    "id": "tour-button_view_cen",
+                    "visibility": "visible",
+                    "top": "40%",
+                    "left": "45%"
+                },
+                {
+                    "id": "tour-button_view_der",
+                    "visibility": "visible",
+                    "top": "40%",
+                    "left": "85%"
+                }
+            ],
+            "link":""
+        },
+        {
+            "type": "-",
+            "title": "",
+            "image": "",
+            "properties": [
+                {
+                    "id": "tour-button_view_izq",
+                    "visibility": "visible",
+                    "top": "50%",
+                    "left": "5%"
+                },
+                {
+                    "id": "tour-button_view_cen",
+                    "visibility": "visible",
+                    "top": "50%",
+                    "left": "45%"
+                },
+                {
+                    "id": "tour-button_view_der",
+                    "visibility": "visible",
+                    "top": "50%",
+                    "left": "85%"
+                }
+            ]
+        }
+    ]
+}

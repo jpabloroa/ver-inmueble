@@ -1,0 +1,180 @@
+/* Css variables */
+
+:root {
+    --font-family: 'Tahoma', 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    /* Landing conf */
+    --landing-header-photo_border-radius: 15%;
+    --landing-header-main-title_font-size: 6vw;
+    --landing-header-main-subtitle_font-size: 4vw;
+    --landing-header-main-title_font-color: black;
+    --landing-header-main-subtitle_font-color: black;
+    --landing-link-title_font-size: 3.5vw;
+    --landing-link-title_font-color: black;
+    --landing-link-container_border-radius: 0%;
+    --link-border-conf: 2px solid black;
+    /* Tour conf */
+    --tour-inputLayOut_background-color: #3b7d57;
+    --tour-inputLayOut_border: 5px;
+    --tour-inputLayOut_border-radius: 20%;
+    --tour-inputLayOut_font-size: 1vw;
+    --tour-inputLayOut_font-weight: bold;
+    /* Gallery conf*/
+    --gallery-main-title_font-size: 1.5vw;
+    --gallery-main-title_font-color: white;
+    --gallery-main-title_background-color: rgba(65, 96, 126, 0.596);
+    --gallery-main-title_font-weight: normal;
+    --gallery-button_font-size: 1vw;
+    --gallery-button_font-style: bold;
+    --gallery-button_font-color: white;
+    --gallery-button_background-color: #3b7d57;
+    --gallery-button_border: 5px;
+    --gallery-button_border-radius: 20%;
+    --gallery-button_font-weight: bold;
+    /* General conf*/
+    --background-color: #EF7F1A;
+}
+
+/* body */
+
+body {
+    /**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+}
+
+/* Header */
+
+div.landing-header-main {
+    /**/
+}
+
+div.landing-header-photo-container {
+    /* Posicionamiento  */
+    /* Dimensión */ 
+}
+
+img.landing-header-photo {
+    /* Posicionamiento  */
+    /* Dimensión */
+    border-radius: var(--landing-header-photo_border-radius);
+}
+
+h1.landing-header-subtitle {
+    /**/
+    font-size: var(--landing-header-main-subtitle_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-subtitle_font-color);
+}
+
+h1.landing-header-title {
+    /**/
+    font-size: var(--landing-header-main-title_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-title_font-color);
+}
+
+/**/
+
+/* Link container */
+
+div.landing-link-main {
+    /**/
+}
+
+div.landing-link-container {
+    /**/
+    border: var(--link-border-conf);
+    border-radius: var(--landing-link-container_border-radius);
+}
+
+img.landing-link-photo {
+    /**/
+    border-radius: 50%;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+h1.landing-link-title {
+    /**/
+    font-size: var(--landing-link-title_font-size);
+    border-radius: 50%;
+    font-family: var(--font-family);
+    color: var(--landing-link-title_font-color);
+}
+
+/**/
+
+/* Virtual tour */
+
+div.tour-main-container {
+    /**/
+}
+
+img.tour-main-image {
+    /**/
+}
+
+input.tour-inputLayOut {
+    border: none;
+    border-radius: var(--tour-inputLayOut_border);
+    background-color: var(--tour-inputLayOut_background-color);
+    color: var(--font-color);
+    font-size: var(--tour-inputLayOut_font-size);
+    font-family: var(--font-family);
+    font-weight: var(--tour-inputLayOut_font-weight);
+}
+
+p.tour-cover-frame {
+    /*background-color: var(--background-color);*/
+}
+
+p.tour-top-frame {
+    /**/
+}
+
+p.tour-left-frame {
+    /**/
+}
+
+p.tour-right-frame {
+    /**/
+}
+
+p.tour-bottom-frame {
+    /**/
+}
+
+/**/
+
+/* Gallery */
+
+p.gallery-main-title {
+    /**/
+    position: relative;
+    font-size: var(--gallery-main-title_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-title_font-color);
+    background-color: var(--gallery-main-title_background-color);
+    font-weight: var(--gallery-main-title_font-weight);
+}
+
+div.gallery-main-container {}
+
+img.gallery-main-image {}
+
+input.gallery-button {
+    font-size: var(--gallery-button_font-size);
+    border: var(--gallery-button_border);
+    border-radius: var(--gallery-button_border-radius);
+    background-color: var(--gallery-button_background-color);
+    font-weight: var(--gallery-button_font-weight);
+}
+
+input.gallery-button:hover {}
+
+input.gallery-previous-button {}
+
+input.gallery-next-button {}

@@ -1,0 +1,54 @@
+{
+    "background": "https://drive.google.com/uc?export=view&id=1ioYHUQhLnGwNxCNe3CR8iZjZF70Co1h9",
+    "favicon": "https://drive.google.com/uc?export=view&id=1Fd693k4nhkbGN8f4WtWthg5Q935KBBwk",
+    "title": "P&aacute;gina principal",
+    "header": [
+        {
+            "link": "",
+            "title": "Edificio Sotavento",
+            "subtitle": "Nuevo proyecto",
+            "mainPhoto": "https://drive.google.com/uc?export=view&id=1ioYHUQhLnGwNxCNe3CR8iZjZF70Co1h9",
+            "upperPhoto": "https://drive.google.com/uc?export=view&id=1l9khySfW67nmZ_Ca1jSxGl2rbMwcI2tr"
+        }
+    ],
+    "linkers": [
+        {
+            "element": "location",
+            "cssStyle": "location",
+            "indexedLink": false,
+            "link": "https://goo.gl/maps/bmbkrZif69y6yL2Q8",
+            "title": "C&oacute;mo llegar al proyecto",
+            "imgSource": "https://drive.google.com/uc?export=view&id=10DpHHhb7DhKNOJ5URJu-aHJt6SJV92yD"
+        },
+        {
+            "element": "whatsapp",
+            "cssStyle": "whatsapp",
+            "indexedLink": false,
+            "link": "https://wa.me/573175526429?text=¡Hola!%20Quiero%20conocer%20el%20proyecto",
+            "title": "Hable con un asesor",
+            "imgSource": "https://drive.google.com/uc?export=view&id=1zILgNv5NNVJ6eQODq4H9EzpoW7XhuD9t"
+        },
+        {
+            "element": "gallery",
+            "cssStyle": "gallery",
+            "indexedLink": false,
+            "link": "https://www.youtube.com/watch?v=qtiElvmH5qM",
+            "title": "Galer&iacute;a de im&aacute;genes",
+            "imgSource": "https://drive.google.com/uc?export=view&id=13mgWZ-ThTYbtLzfv-RRLCPLZZUn8LM9d"
+        },
+        {
+            "element": "proyects",
+            "cssStyle": "proyects",
+            "indexedLink": false,
+            "link": "https://www.nuestrosproyectos.com.co/proyecto-edificio-sotavento/",
+            "title": "Conozca nuestros proyectos",
+            "imgSource": "https://drive.google.com/uc?export=view&id=1Fd693k4nhkbGN8f4WtWthg5Q935KBBwk"
+        }
+    ],
+    "footer": [
+        {
+            "link": "https://jpabloroa.github.io/index.html",
+            "imgSource": "https://drive.google.com/uc?export=view&id=16iwTbMoqSnSSoKl7kbcRJzZUkwANcDdf"
+        }
+    ]
+}

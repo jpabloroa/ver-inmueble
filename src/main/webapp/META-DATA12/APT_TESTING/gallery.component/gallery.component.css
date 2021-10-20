@@ -1,0 +1,64 @@
+/* Css variables */
+
+:root {
+    --font-family: 'Tahoma', 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    /* Gallery conf*/
+    --gallery-main-title_font-size: 1.5vw;
+    --gallery-main-title_font-color: white;
+    --gallery-main-title_background-color: rgba(65, 96, 126, 0.596);
+    --gallery-main-title_font-weight: normal;
+    --gallery-button_font-size: 1vw;
+    --gallery-button_font-style: bold;
+    --gallery-button_font-color: white;
+    --gallery-button_background-color: #3b7d57;
+    --gallery-button_border: 5px;
+    --gallery-button_border-radius: 20%;
+    --gallery-button_font-weight: bold;
+    /* General conf*/
+    --background-color: #EF7F1A;
+}
+
+/**/
+
+/* body */
+
+body {
+    /**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+}
+
+/**/
+
+/* Gallery */
+
+p.gallery-main-title {
+    /**/
+    position: relative;
+    font-size: var(--gallery-main-title_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-title_font-color);
+    background-color: var(--gallery-main-title_background-color);
+    font-weight: var(--gallery-main-title_font-weight);
+}
+
+div.gallery-main-container {}
+
+img.gallery-main-image {}
+
+input.gallery-button {
+    font-size: var(--gallery-button_font-size);
+    border: var(--gallery-button_border);
+    border-radius: var(--gallery-button_border-radius);
+    background-color: var(--gallery-button_background-color);
+    font-weight: var(--gallery-button_font-weight);
+}
+
+input.gallery-button:hover {}
+
+input.gallery-previous-button {}
+
+input.gallery-next-button {}

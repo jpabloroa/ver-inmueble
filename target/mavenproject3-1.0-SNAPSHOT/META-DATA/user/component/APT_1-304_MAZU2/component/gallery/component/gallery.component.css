@@ -1,0 +1,66 @@
+/* Css variables */
+
+:root {
+    --font-family: 'Tahoma', 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    /* Gallery conf*/
+    --gallery-main-title_font-size: ;
+    --gallery-main-title_font-color: ;
+    --gallery-main-title_background-color: ;
+    --gallery-main-title_font-weight: ;
+    --gallery-button_font-size: ;
+    --gallery-button_font-style: ;
+    --gallery-button_font-color: ;
+    --gallery-button_background-color: ;
+    --gallery-button_border: ;
+    --gallery-button_border-radius: ;
+    --gallery-button_font-weight: ;
+    /* General conf*/
+    --background-color: ;
+    --background-image: ;
+}
+
+/**/
+
+/* body */
+
+body {
+    /**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    font-family: var(--font-family);
+}
+
+/**/
+
+/* Gallery */
+
+p.gallery-main-title {
+    /**/
+    position: relative;
+    font-size: var(--gallery-main-title_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-title_font-color);
+    background-color: var(--gallery-main-title_background-color);
+    font-weight: var(--gallery-main-title_font-weight);
+}
+
+div.gallery-main-container {}
+
+img.gallery-main-image {}
+
+input.gallery-button {
+    font-size: var(--gallery-button_font-size);
+    border: var(--gallery-button_border);
+    border-radius: var(--gallery-button_border-radius);
+    background-color: var(--gallery-button_background-color);
+    font-weight: var(--gallery-button_font-weight);
+}
+
+input.gallery-button:hover {}
+
+input.gallery-previous-button {}
+
+input.gallery-next-button {}

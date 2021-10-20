@@ -1,0 +1,67 @@
+/* Css variables */
+
+:root {
+    --font-family: 'Tahoma', 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    /* Tour conf */
+    --tour-inputLayOut_background-color: ;
+    --tour-inputLayOut_border: ;
+    --tour-inputLayOut_border-radius: ;
+    --tour-inputLayOut_font-size: ;
+    --tour-inputLayOut_font-weight: ;
+    /* General conf*/
+    --background-color: ;
+    --background-image: ;
+}
+
+/* body */
+
+body {
+    /**/
+    background: linear-gradient(var(--background-color), var(--background-color)), var(--background-image);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--font-family);
+}
+
+/**/
+
+/* Virtual tour */
+
+div.tour-main-container {
+    /**/
+}
+
+img.tour-main-image {
+    /**/
+}
+
+input.tour-inputLayOut {
+    border: none;
+    border-radius: var(--tour-inputLayOut_border);
+    background-color: var(--tour-inputLayOut_background-color);
+    color: var(--font-color);
+    font-size: var(--tour-inputLayOut_font-size);
+    font-family: var(--font-family);
+    font-weight: var(--tour-inputLayOut_font-weight);
+}
+
+p.tour-cover-frame {
+    /*background-color: var(--background-color);*/
+}
+
+p.tour-top-frame {
+    /**/
+}
+
+p.tour-left-frame {
+    /**/
+}
+
+p.tour-right-frame {
+    /**/
+}
+
+p.tour-bottom-frame {
+    /**/
+}

@@ -1,0 +1,173 @@
+/* Css variables */
+
+:root {
+    --font-family: 'Tahoma', 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    /* Landing conf */
+    --landing-header-main-title_font-size: 0;
+    --landing-header-main-subtitle_font-size: 0;
+    --landing-header-main-title_font-color: 0;
+    --landing-header-main-subtitle_font-color: 0;
+    --landing-link-title_font-size: 0;
+    --landing-link-title_font-color: 0;
+    --link-border-conf: 0;
+    /* Tour conf */
+    --tour-inputLayOut_background-color: 0;
+    --tour-inputLayOut_border: 0;
+    --tour-inputLayOut_border-radius: 0;
+    --tour-inputLayOut_font-weight: 0;
+    /* Gallery conf*/
+    --gallery-main-title_font-size: 0;
+    --gallery-main-title_font-color: 0;
+    --gallery-main-title_background-color: 0;
+    --gallery-main-title_font-weight: 0;
+    --gallery-button_font-size: 0;
+    --gallery-button_font-style: 0;
+    --gallery-button_font-color: 0;
+    --gallery-button_background-color: 0;
+    --gallery-button_border: 0;
+    --gallery-button_border-radius: 0;
+    --gallery-button_font-weight: 0;
+    /* General conf*/
+    --background-color: 0;
+}
+
+/* body */
+
+body {
+    /**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+}
+
+/* Header */
+
+div.landing-header-main {
+    /**/
+}
+
+img.landing-header-main-photo {
+    /**/
+    border-radius: 15%;
+}
+
+img.landing-header-upper-photo {
+    /**/
+    border-radius: 15%;
+}
+
+h1.landing-header-subtitle {
+    /**/
+    font-size: var(--landing-header-main-subtitle_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-subtitle_font-color);
+}
+
+h1.landing-header-title {
+    /**/
+    font-size: var(--landing-header-main-title_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-title_font-color);
+}
+
+/**/
+
+/* Link container */
+
+div.landing-link-main {
+    /**/
+}
+
+div.landing-link-container {
+    /**/
+    border: var(--link-border-conf);
+    border-radius: 15%;
+}
+
+img.landing-link-photo {
+    /**/
+    border-radius: 50%;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+h1.landing-link-title {
+    /**/
+    font-size: var(--landing-link-title_font-size);
+    border-radius: 50%;
+    font-family: var(--font-family);
+    color: var(--landing-link-title_font-color);
+}
+
+/**/
+
+/* Virtual tour */
+
+div.tour-main-container {
+    /**/
+}
+
+img.tour-main-image {
+    /**/
+}
+
+input.tour-inputLayOut {
+    border: none;
+    border-radius: var(--tour-inputLayOut_border);
+    background-color: var(--tour-inputLayOut_background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
+    font-weight: var(--tour-inputLayOut_font-weight);
+}
+
+p.tour-cover-frame {
+    /*background-color: var(--background-color);*/
+}
+
+p.tour-top-frame {
+    /**/
+}
+
+p.tour-left-frame {
+    /**/
+}
+
+p.tour-right-frame {
+    /**/
+}
+
+p.tour-bottom-frame {
+    /**/
+}
+
+/**/
+
+/* Gallery */
+
+p.gallery-main-title {
+    /**/
+    font-size: var(--gallery-main-title_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-title_font-color);
+    background-color: var(--gallery-main-title_background-color);
+    font-weight: var(--gallery-main-title_font-weight);
+}
+
+div.gallery-main-container {}
+
+img.gallery-main-image {}
+
+input.gallery-button {
+    border: var(--gallery-button_border);
+    border-radius: var(--gallery-button_border-radius);
+    background-color: var(--gallery-button_background-color);
+    font-weight: var(--gallery-button_font-weight);
+}
+
+input.gallery-button:hover {}
+
+input.gallery-previous-button {}
+
+input.gallery-next-button {}

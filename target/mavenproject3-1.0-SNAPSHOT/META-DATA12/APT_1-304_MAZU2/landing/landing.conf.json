@@ -1,0 +1,40 @@
+{
+    "background": "https://drive.google.com/uc?export=view&id=1LodwnSdKcVycb779DzhO0HgI1ekRhaL9",
+    "header": {
+        "link": "https://goo.gl/maps/AAxMcFNAJKgvz4TP7",
+        "title": "Mazur&eacute;n",
+        "subtitle": "Conjunto residencial",
+        "mainPhoto": "https://drive.google.com/uc?export=view&id=12g9vMNuIGsCFnAfOgdgUJnlCMDQkK4VG",
+        "upperPhoto": "https://drive.google.com/uc?export=view&id=1EXU5SBGFoDdh-JvKnHRY_ppf6Z9DKtFR"
+    },
+    "linkers": [
+        {
+            "element": "tour",
+            "cssStyle": "tour",
+            "indexedLink" : true,
+            "link": "/LandingV1/?APT_1-304_MAZU2/tour",
+            "title": "Recorrido virtual",
+            "imgSource": "https://drive.google.com/uc?export=view&id=12g9vMNuIGsCFnAfOgdgUJnlCMDQkK4VG"
+        },
+        {
+            "element": "contact",
+            "cssStyle": "contact",
+            "indexedLink" : false,
+            "link": "https://wa.me/573194278488?text=Hola,%20necesito%20informaci&oacute;n",
+            "title": "Contacto de Whatsapp",
+            "imgSource": "https://drive.google.com/uc?export=view&id=1zILgNv5NNVJ6eQODq4H9EzpoW7XhuD9t"
+        },
+        {
+            "element": "gallery",
+            "cssStyle": "gallery",
+            "indexedLink" : true,
+            "link": "/LandingV1/?APT_1-304_MAZU2/gallery",
+            "title": "Galer&iacute;a de im&aacute;genes",
+            "imgSource": "https://drive.google.com/uc?export=view&id=1EXU5SBGFoDdh-JvKnHRY_ppf6Z9DKtFR"
+        }
+    ],
+    "footer": {
+        "link": "https://jpabloroa.github.io/index.html",
+        "imgSource": "https://drive.google.com/uc?export=view&id=16iwTbMoqSnSSoKl7kbcRJzZUkwANcDdf"
+    }
+}

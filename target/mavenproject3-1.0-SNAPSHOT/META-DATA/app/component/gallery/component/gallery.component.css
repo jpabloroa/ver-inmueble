@@ -1,0 +1,73 @@
+/**/
+
+/* Gallery */
+
+.gallery-main-container {
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin: 0% auto;
+}
+
+.gallery-main-image-container {
+    position: relative;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.6s ease;
+}
+
+.gallery-main-image {
+    max-width: 100%;
+}
+
+.gallery-button {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 5% 4%;
+    margin-top: 0px;
+    transition: 0.4s ease;
+    border-radius: 0 15% 15% 0;
+    user-select: none;
+}
+
+.gallery-next-button {
+    right: 0;
+    border-radius: 15% 0 0 15%;
+}
+
+.gallery-button:hover {}
+
+
+.gallery-main-title-container {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.gallery-main-title-container:hover {
+    transition: 0.3s ease;
+}
+
+.gallery-main-title {
+    width: 100%;
+    text-align: center;
+}
+
+.gallery-icon-saber_mas {
+    font-size: 5vw;
+}
+
+.gallery-icon-whatsapp {
+    font-size: 5vw;
+}
+
+/**/

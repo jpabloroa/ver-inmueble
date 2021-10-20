@@ -1,0 +1,31 @@
+{
+    "favicon": "",
+    "title": "Recorrido Virtual",
+    "intances": [
+        {
+            "type": "",
+            "title": "",
+            "image": "",
+            "properties": [
+                {
+                    "id": "tour-button_view_izq",
+                    "visibility": "true",
+                    "top": "",
+                    "left": ""
+                },
+                {
+                    "id": "tour-button_view_cen",
+                    "visibility": "true",
+                    "top": "",
+                    "left": ""
+                },
+                {
+                    "id": "tour-button_view_der",
+                    "visibility": "true",
+                    "top": "",
+                    "left": ""
+                }
+            ]
+        }
+    ]
+}

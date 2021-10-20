@@ -1,0 +1,55 @@
+{
+    "favicon": "https://cusezar.com/wp-content/uploads/2021/06/cropped-favicon-10-06-32x32.png",
+    "title": "Proyectos Gregal Montevideo Bogotá - Constructora Cusezar",
+    "header": [
+        {
+            "link": "https://cusezar.com/proyectos/gregal-cuatro-vientos/",
+            "title": "Gregal de Cuatro Vientos",
+            "subtitle": "Contructora Cusezar",
+            "mainPhoto": "https://cusezar.com/wp-content/uploads/2020/07/GREGAL-RGB-700x633.jpg",
+            "upperPhoto": ""
+        }
+    ],
+    "linkers": [
+        {
+            "element": "apartamentos",
+            "cssStyle": "apartamentos",
+            "indexedLink": true,
+            "link": "/ver/GREGAL/galeria",
+            "title": "Conozca los apartamentos",
+            "imgSource": "https://drive.google.com/uc?export=view&id=17MjA8cVl479awTX1RuJJ8BJlDBp_yVtc"
+        },
+        {
+            "element": "whatsapp",
+            "cssStyle": "whatsapp",
+            "indexedLink": false,
+            "link": "https://wa.me/573142991305?text=¡%20Hola%20*Gregal%20de%20Cuatro%20Vientos*%20!%20Quiero%20más%20información",
+            "title": "Hable con un asesor",
+            "imgSource": "https://drive.google.com/uc?export=view&id=1zILgNv5NNVJ6eQODq4H9EzpoW7XhuD9t"
+        },
+        {
+            "element": "folleto",
+            "cssStyle": "folleto",
+            "indexedLink": false,
+            "link": "https://drive.google.com/uc?id=1fNp3NEPva5Bnohaou_JMndSkHRSOj8pu&export=download",
+            "title": "Folleto del proyecto",
+            "imgSource": "https://drive.google.com/uc?export=view&id=10gOKX9oNHjz9265pXGAN7NHE4SP3SG6l"
+        },
+        {
+            "element": "ubicacion",
+            "cssStyle": "ubicacion",
+            "indexedLink": false,
+            "link": "https://goo.gl/maps/P9Pqg6pTbddij4fr8",
+            "title": "Ubicaci&oacute;n",
+            "imgSource": "https://drive.google.com/uc?export=view&id=1QP4N0SRogmJ_5QwLLhvPDdAZCTMGqOKZ"
+        },
+        {
+            "element": "mas_proyectos",
+            "cssStyle": "mas_proyectos",
+            "indexedLink": false,
+            "link": "https://cusezar.com/home-proyectos/",
+            "title": "Otros proyectos del portafolio",
+            "imgSource": "https://cusezar.com/wp-content/uploads/2021/06/cropped-favicon-10-06-32x32.png"
+        }
+    ]
+}

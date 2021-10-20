@@ -1,0 +1,53 @@
+{
+    "favicon": "https://drive.google.com/uc?export=view&id=1Fd693k4nhkbGN8f4WtWthg5Q935KBBwk",
+    "title": "P&aacute;gina principal",
+    "background_color": "#EF7F1A",
+    "images": [
+        {
+            "title": "Apartamento <strong>D&Uacute;PLEX</strong> - Primer nivel<br>&Aacute;rea desde <strong>78,75 mts<sup>2</sup></strong> hasta <strong>84,30 mts<sup>2</sup></strong><br><strong>$ 397.773.300 - $ 427.361.250</strong>",
+            "image": "https://drive.google.com/uc?export=view&id=1Q0x6cfWF0KW9ZNTOVt6o5MKNCmmk377J"
+        },
+        {
+            "title": "Apartamento <strong>D&Uacute;PLEX</strong> - Segundo nivel<br>&Aacute;rea desde <strong>78,75 mts<sup>2</sup></strong> hasta <strong>84,30 mts<sup>2</sup></strong><br><strong>$ 397.773.300 - $ 427.361.250</strong>",
+            "image": "https://drive.google.com/uc?export=view&id=1bgTrPw2fjiQZNZyovhttIc5CyN8xf1LV"
+        },
+        {
+            "title": "Apartamento <strong>Tipo A</strong><br>&Aacute;rea desde <strong>61,85 mts<sup>2</sup></strong> hasta <strong>65,19 mts<sup>2</sup></strong><br><strong>$ 287.232.500 - $ 315.087.000</strong>",
+            "image": "https://drive.google.com/uc?export=view&id=1qcsVqhEMgLbXAhivV5GHhSOsIUsb8e5K"
+        },
+        {
+            "title": "Apartamento <strong>Tipo B</strong><br>&Aacute;rea desde <strong>51,60 mts<sup>2</sup></strong> hasta <strong>54,57 mts<sup>2</sup></strong><br><strong>$ 244.423.500 - $ 265.750.000</strong>",
+            "image": "https://drive.google.com/uc?export=view&id=1xnoRv77ojoUKoJdwfUuLKrN1SgFAK2lk"
+        },
+        {
+            "title": "Fachada principal",
+            "image": "https://drive.google.com/uc?export=view&id=1ioYHUQhLnGwNxCNe3CR8iZjZF70Co1h9"
+        },
+        {
+            "title": "Fachada principal",
+            "image": "https://drive.google.com/uc?export=view&id=1-pL02iBS8rWLXsUuVbSkuluRbCcA7s9Z"
+        },
+        {
+            "title": "Cubierta",
+            "image": "https://drive.google.com/uc?export=view&id=1Pbkv_G0WSAuMfcnICoNRGN5e1pMgBUkI"
+        },
+        {
+            "title": "Lobby de acceso",
+            "image": "https://drive.google.com/uc?export=view&id=1nDrBktplQI2AtpMWJve9b8hGYK7zNPYl"
+        },
+        {
+            "title": "Terraza BBQ",
+            "image": "https://drive.google.com/uc?export=view&id=13mgWZ-ThTYbtLzfv-RRLCPLZZUn8LM9d"
+        },
+        {
+            "title": "Parque infantil",
+            "image": "https://drive.google.com/uc?export=view&id=1Bw-E7BI5_PYUr2CJr3GY4-1YgkvDAJ2M"
+        }
+    ],
+    "footer": [
+        {
+            "link": "https://jpabloroa.github.io/index.html",
+            "imgSource": "https://drive.google.com/uc?export=view&id=16iwTbMoqSnSSoKl7kbcRJzZUkwANcDdf"
+        }
+    ]
+}

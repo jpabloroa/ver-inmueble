@@ -1,0 +1,23 @@
+{
+    "favicon": "",
+    "title": "P&aacute;principal",
+    "header": [
+        {
+            "link": "",
+            "title": "",
+            "subtitle": "",
+            "mainPhoto": "",
+            "upperPhoto": ""
+        }
+    ],
+    "linkers": [
+        {
+            "element": "",
+            "cssStyle": "",
+            "indexedLink": false,
+            "link": "",
+            "title": "",
+            "imgSource": ""
+        }
+    ]
+}

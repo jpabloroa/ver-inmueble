@@ -1,0 +1,65 @@
+/**/
+
+/* Virtual tour */
+
+div.tour-main-container {
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin: 0% auto;
+}
+
+img.tour-main-image {
+    max-height: 90vh;
+}
+
+input.tour-inputLayOut {
+    position: absolute;
+    cursor: pointer;
+    width: 12.5%;
+    height: auto;
+    font-size: 1.5vw;
+    text-align: center;
+    visibility: hidden;
+}
+
+input.tour-inputLayOut:hover {
+    transform: scale(1.2);
+}
+
+p.tour-cover-frame {
+    position: absolute;
+    opacity: 0.2;
+    z-index: 8888;
+}
+
+p.tour-top-frame {
+    top: -5%;
+    left: 10%;
+    width: 80%;
+    height: 5%;
+}
+
+p.tour-left-frame {
+    top: 0%;
+    left: 5%;
+    width: 10%;
+    height: 100%;
+}
+
+p.tour-right-frame {
+    top: 0%;
+    right: 5%;
+    width: 10%;
+    height: 100%;
+}
+
+p.tour-bottom-frame {
+    opacity: 0.8;
+    bottom: -5%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+}
+
+/**/

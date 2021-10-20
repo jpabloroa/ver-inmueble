@@ -1,0 +1,95 @@
+/* Css variables */
+
+:root {
+    --font-family: 'Tahoma', 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    /* Landing conf */
+    --landing-header-photo_border-radius: 15%;
+    --landing-header-main-title_font-size: 6vw;
+    --landing-header-main-subtitle_font-size: 3.5vw;
+    --landing-header-main-title_font-color: black;
+    --landing-header-main-subtitle_font-color: rgb(53, 53, 53);
+    --landing-link-title_font-size: 3.5vw;
+    --landing-link-title_font-color: black;
+    --landing-link-container_border-radius: 0%;
+    --link-border-conf: 2px solid black;
+    /* General conf*/
+    --background-color: rgba(255,0,0,0.3);
+    --background-image: url(https://cusezar.com/wp-content/uploads/2020/08/CUS-GRL-FACHADA-PPAL-V5.jpg);
+}
+
+/* body */
+
+body {
+    /**/
+    background: linear-gradient(var(--background-color), var(--background-color)), var(--background-image);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--font-family);
+}
+
+/**/
+
+/* Landing */
+
+/**/
+
+/* Header */
+
+div.landing-header-main {
+    /**/
+}
+
+div.landing-header-photo-container {
+    /* Posicionamiento  */
+    /* Dimensión */
+}
+
+img.landing-header-photo {
+    /* Posicionamiento  */
+    /* Dimensión */
+    border-radius: var(--landing-header-photo_border-radius);
+}
+
+h1.landing-header-subtitle {
+    /**/
+    font-size: var(--landing-header-main-subtitle_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-subtitle_font-color);
+}
+
+h1.landing-header-title {
+    /**/
+    font-size: var(--landing-header-main-title_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-title_font-color);
+}
+
+/**/
+
+/* Link container */
+
+div.landing-link-main {
+    /**/
+}
+
+div.landing-link-container {
+    /**/
+    border: var(--link-border-conf);
+    border-radius: var(--landing-link-container_border-radius);
+}
+
+img.landing-link-photo {
+    /**/
+    border-radius: 0%;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+h1.landing-link-title {
+    /**/
+    font-size: var(--landing-link-title_font-size);
+    border-radius: 50%;
+    font-family: var(--font-family);
+    color: var(--landing-link-title_font-color);
+}

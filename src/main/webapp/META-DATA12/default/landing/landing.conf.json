@@ -1,0 +1,24 @@
+{
+    "background": "",
+    "header": {
+        "link": "",
+        "title": "",
+        "subtitle": "",
+        "mainPhoto": "",
+        "upperPhoto": ""
+    },
+    "linkers": [
+        {
+            "element": "",
+            "cssStyle": "",
+            "indexedLink" : false,
+            "link": "",
+            "title": "",
+            "imgSource": ""
+        }
+    ],
+    "footer": {
+        "link": "https://jpabloroa.github.io/index.html",
+        "imgSource": "https://drive.google.com/uc?export=view&id=16iwTbMoqSnSSoKl7kbcRJzZUkwANcDdf"
+    }
+}

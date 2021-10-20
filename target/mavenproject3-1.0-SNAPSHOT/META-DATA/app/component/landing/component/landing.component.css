@@ -1,0 +1,87 @@
+/**/
+
+/* Landing */
+
+/**/
+
+/* Header */
+
+div.landing-header-main {
+    /* Posicionamiento  */
+    margin: 15% auto;
+    /* Dimensión */
+    width: 80%;
+}
+
+div.landing-header-main:hover {
+    transform: scale(var(--scale-effect));
+}
+
+div.landing-header-photo-container {
+    /* Posicionamiento  */
+    margin: 10% auto;
+    /* Dimensión */
+    width: fit-content;
+}
+
+img.landing-header-photo {
+    /* Posicionamiento  */
+    /* Dimensión */
+    object-fit: cover;
+    height: 40vw;
+    width: 40vw;
+}
+
+h1.landing-header-subtitle {
+    /* Posicionamiento  */
+    text-align: center;
+    /* Dimensión */
+}
+
+h1.landing-header-title {
+    /* Posicionamiento  */
+    text-align: center;
+    margin: -2.5% auto;
+    /* Dimensión */
+}
+
+/**/
+
+/* Link container */
+
+div.landing-link-main {
+    /* Posicionamiento  */
+    position: relative;
+    /* Dimensión */
+    width: 100%;
+    height: auto;
+}
+
+div.landing-link-container {
+    /* Posicionamiento  */
+    display: flex;
+    align-items: center;
+    margin: 2.5% 0%;
+    /* Dimensión */
+    width: auto;
+}
+
+div.landing-link-container:hover {
+    transform: scale(var(--scale-effect));
+}
+
+img.landing-link-photo {
+    /* Posicionamiento  */
+    margin: 5% 10% 5% 7.5%;
+    object-fit: cover;
+    /* Dimensión */
+    width: 10vw;
+    height: 10vw;
+}
+
+h1.landing-link-title {
+    /* Posicionamiento  */
+    /* Dimensión */
+}
+
+/**/

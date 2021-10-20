@@ -1,0 +1,96 @@
+/* Css variables */
+
+:root {
+    --font-family: 'Tahoma', 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    /* Landing conf */
+    --landing-header-photo_border-radius: ;
+    --landing-header-main-title_font-size: ;
+    --landing-header-main-subtitle_font-size: ;
+    --landing-header-main-title_font-color: ;
+    --landing-header-main-subtitle_font-color: ;
+    --landing-link-title_font-size: ;
+    --landing-link-title_font-color: ;
+    --landing-link-container_border-radius: ;
+    --link-border-conf: ;
+    /* General conf*/
+    --background-color: ;
+    --background-image: ;
+}
+
+/* body */
+
+body {
+    /**/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    font-family: var(--font-family);
+}
+
+/**/
+
+/* Landing */
+
+/**/
+
+/* Header */
+
+div.landing-header-main {
+    /**/
+}
+
+div.landing-header-photo-container {
+    /* Posicionamiento  */
+    /* Dimensión */
+}
+
+img.landing-header-photo {
+    /* Posicionamiento  */
+    /* Dimensión */
+    border-radius: var(--landing-header-photo_border-radius);
+}
+
+h1.landing-header-subtitle {
+    /**/
+    font-size: var(--landing-header-main-subtitle_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-subtitle_font-color);
+}
+
+h1.landing-header-title {
+    /**/
+    font-size: var(--landing-header-main-title_font-size);
+    font-family: var(--font-family);
+    color: var(--landing-header-main-title_font-color);
+}
+
+/**/
+
+/* Link container */
+
+div.landing-link-main {
+    /**/
+}
+
+div.landing-link-container {
+    /**/
+    border: var(--link-border-conf);
+    border-radius: var(--landing-link-container_border-radius);
+}
+
+img.landing-link-photo {
+    /**/
+    border-radius: 50%;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+h1.landing-link-title {
+    /**/
+    font-size: var(--landing-link-title_font-size);
+    border-radius: 50%;
+    font-family: var(--font-family);
+    color: var(--landing-link-title_font-color);
+}

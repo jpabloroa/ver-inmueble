@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prueba</title>
+    <style></style>
+    <script>
+        function getMouseBounds(event) {
+            console.log("x: " + event.pageX + ", y: " + event.pageY);
+        }
+        document.addEventListener("mousedown", getMouseBounds);
+        document.addEventListener("mouseup", getMouseBounds);
+    </script>
+</head>
+
+<body>
+    <div id="main"></div>
+</body>
+
+</html>

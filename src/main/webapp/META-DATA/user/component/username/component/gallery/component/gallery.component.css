@@ -1,0 +1,90 @@
+/* Css variables */
+
+:root {
+    --font-family: 'Tahoma', 'Segoe UI', 'Geneva', Verdana, sans-serif;
+    /* Gallery conf*/
+    --gallery-container-border: ;
+    --gallery-main-title_font-size: ;
+    --gallery-main-title_font-color: ;
+    --gallery-main-title_background-color: ;
+    --gallery-main-title_font-weight: ;
+    --gallery-main-title_font-size_hover: ;
+    --gallery-main-title_font-color_hover: ;
+    --gallery-main-title_background-color_hover: ;
+    --gallery-button_border: ;
+    --gallery-button_border-radius: ;
+    --gallery-button_font-weight: ;
+    --gallery-button_font-size: ;
+    --gallery-button_font-style: ;
+    --gallery-button_font-color: ;
+    --gallery-button_background-color: ;
+    --gallery-button_font-size_hover: ;
+    --gallery-button_font-style_hover: ;
+    --gallery-button_font-color_hover: ;
+    --gallery-button_background-color_hover: ;
+    /* General conf*/
+    --background-color: ;
+    --background-image: ;
+}
+
+/**/
+
+/* body */
+
+body {
+    /**/
+    background: linear-gradient(var(--background-color), var(--background-color)), var(--background-image);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--font-family);
+}
+
+/**/
+
+/* Gallery */
+
+.gallery-main-container {}
+
+.gallery-main-image-container {
+    border: var(--gallery-container-border);
+}
+
+.gallery-main-image {}
+
+.gallery-button {
+    color: var(--gallery-button_font-color);
+    font-weight: var(--gallery-button_font-weight);
+    font-size: var(--gallery-button_font-size);
+    background-color: var(--gallery-button_background-color);
+}
+
+.gallery-next-button {}
+
+.gallery-button:hover {
+    color: var(--gallery-button_font-color_hover);
+    font-weight: var(--gallery-button_font-weight_hover);
+    font-size: var(--gallery-button_font-size_hover);
+    background-color: var(--gallery-button_background-color_hover);
+}
+
+.gallery-main-title-container {
+    color: var(--gallery-main-title_font-color);
+    font-weight: var(--gallery-main-title_font-weight);
+    background-color: var(--gallery-main-title_background-color);
+}
+
+.gallery-main-title-container:hover {
+    color: var(--gallery-main-title_font-color_hover);
+    background-color: var(--gallery-main-title_background-color_hover);
+}
+
+.gallery-main-title {
+    font-size: var(--gallery-main-title_font-size);
+}
+
+.gallery-icon-saber_mas {}
+
+.gallery-icon-whatsapp {}
+
+/**/
