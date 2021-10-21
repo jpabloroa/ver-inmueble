@@ -55,7 +55,6 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
-            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -82,13 +81,9 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>com.google.appengine</groupId>
+                <groupId>com.google.cloud.tools</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
-                <version>1.9.9</version>
-                <configuration>
-                    <projectId>landing-roverin</projectId>
-                    <version>GCLOUD_CONFIG</version>
-                </configuration>
+                <version>2.4.0</version>
             </plugin>
         </plugins>
     </build>
