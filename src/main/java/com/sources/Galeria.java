@@ -156,6 +156,7 @@ public class Galeria extends HttpServlet {
         Map<String, String> options = new LinkedHashMap<>();
         options.put("title", json.images.get(galleryStep).title);
         options.put("image", json.images.get(galleryStep).image);
+        options.put("link", json.images.get(galleryStep).link);
         options.put("vsb_bnext", String.valueOf(vsb_bnext));
         options.put("vsb_bprevious", String.valueOf(vsb_bprevious));
         options.put("pValue", String.valueOf(galleryStep));

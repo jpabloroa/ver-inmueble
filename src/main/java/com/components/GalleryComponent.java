@@ -69,6 +69,8 @@ public class GalleryComponent {
     String setHead(String context, String SessionName) {
         StringBuilder respuesta = new StringBuilder();
         respuesta.append("<link rel='shortcut icon' href='").append(this.favicon).append("' type='image/x-icon'>");
+        respuesta.append("<link rel='stylesheet' href='").append(context).append("/META-DATA/app/component/icons/fontello-icon-th-large/css/fontello.css'>");
+        respuesta.append("<link rel='stylesheet' href='").append(context).append("/META-DATA/app/component/icons/fontello-icon-whatsapp/css/fontello.css'>");
         respuesta.append("<link rel='stylesheet' href='").append(context).append("/META-DATA/app/component/app.style.css' type='text/css'>");
         respuesta.append("<link rel='stylesheet' href='").append(context).append("/META-DATA/app/component/gallery/component/gallery.component.css' type='text/css'>");
         respuesta.append("<link rel='stylesheet' href='").append(context).append("/META-DATA/user/component/").append(SessionName).append("/component/gallery/component/gallery.component.css' type='text/css'>");
@@ -98,8 +100,8 @@ public class GalleryComponent {
                 .append("</a>")
                 .append("</div>")
                 .append("</div>")
-                .append("<a id='gallery-next-button' type='button' value='Siguiente' class='gallery-button gallery-next-button' onclick='newGalleryImage(\"next\")'>&#10095;</a>")
-                .append("<a id='gallery-previous-button' type='button' value='Anterior' class='gallery-button gallery-previous-button' onclick='newGalleryImage(\"previous\")'>&#10094;</a>")
+                .append("<a id='gallery-next-button' class='gallery-button gallery-next-button' onclick='newGalleryImage(\"next\")'></a>")
+                .append("<a id='gallery-previous-button' class='gallery-button gallery-previous-button' onclick='newGalleryImage(\"previous\")'></a>")
                 .append("</div>");
         return respuesta.toString();
     }

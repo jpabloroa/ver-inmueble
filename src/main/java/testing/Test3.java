@@ -25,28 +25,28 @@ public class Test3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Document htmlResponse_htmlFile = Jsoup.parse("<!DOCTYPE html>\n"
-                + "<html lang=\"en\">\n"
-                + "<head>\n"
-                + "    <meta charset=\"UTF-8\">\n"
-                + "    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n"
-                + "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
-                + "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">\n"
-                + "    <script type=\"module\" src=\"./app.script.js\"></script>\n"
-                + "    <link rel=\"stylesheet\" href=\"app.style.css\">\n"
-                + "    <title>P&aacute;gina Principal</title>\n"
-                + "</head>\n"
-                + "<body>\n"
-                + "    <div id=\"main\" class=\"main\"></div>\n"
-                + "</body>\n"
-                + "</html>");
-        Element main = htmlResponse_htmlFile.head();
-        main.append("<link rel=\"yono se pa\" href=\"FUNCIONOOOO\">");
-        Element body = htmlResponse_htmlFile.body();
-        body.attr("style", "ey nooooooOOOOOOO");
-        Element hug = htmlResponse_htmlFile.getElementById("main");
-        hug.html("<p>FUNCIONOOOO</p>");
-        System.out.println(htmlResponse_htmlFile.html());
+//        Document htmlResponse_htmlFile = Jsoup.parse("<!DOCTYPE html>\n"
+//                + "<html lang=\"en\">\n"
+//                + "<head>\n"
+//                + "    <meta charset=\"UTF-8\">\n"
+//                + "    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n"
+//                + "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
+//                + "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">\n"
+//                + "    <script type=\"module\" src=\"./app.script.js\"></script>\n"
+//                + "    <link rel=\"stylesheet\" href=\"app.style.css\">\n"
+//                + "    <title>P&aacute;gina Principal</title>\n"
+//                + "</head>\n"
+//                + "<body>\n"
+//                + "    <div id=\"main\" class=\"main\"></div>\n"
+//                + "</body>\n"
+//                + "</html>");
+//        Element main = htmlResponse_htmlFile.head();
+//        main.append("<link rel=\"yono se pa\" href=\"FUNCIONOOOO\">");
+//        Element body = htmlResponse_htmlFile.body();
+//        body.attr("style", "ey nooooooOOOOOOO");
+//        Element hug = htmlResponse_htmlFile.getElementById("main");
+//        hug.html("<p>FUNCIONOOOO</p>");
+        System.out.println(new com.components.GalleryComponent().getGalleryHTML("<html><head><head><body><div id='app-module'></div><body</html>", "no-context", "instance"));
 //        String jsonexample = "{\n"
 //                + "    \"background\": \"https://drive.google.com/uc?export=view&id=1ioYHUQhLnGwNxCNe3CR8iZjZF70Co1h9\",\n"
 //                + "    \"header\": [{\n"
