@@ -165,7 +165,8 @@ public class MainResponse extends HttpServlet {
         String path = URLPath;
         String auxiliar = "";
         ArrayList<String> respuesta = new ArrayList<>();
-        for (int i = 0; i < path.length(); i++) {
+        int length = path.length();
+        for (int i = 0; i < length; i++) {
             if ("/".equals(path.substring(i, i + 1))) {
                 respuesta.add(auxiliar);
                 auxiliar = "";
